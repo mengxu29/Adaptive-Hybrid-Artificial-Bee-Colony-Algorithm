@@ -18,7 +18,7 @@ max_eta = mean(lifes);
 ub=[1.9 10 max_eta]; %/*lower bounds of the parameters. */
 lb=[-10 0.00001 0.0001];%/*upper bound of the parameters.*/
 
-runtime = 1;%/*Algorithm can be run many times in order to see its robustness*/
+runtime = 5;%/*Algorithm can be run many times in order to see its robustness*/
 
 plotOutPut = cell(1,runtime);
 
